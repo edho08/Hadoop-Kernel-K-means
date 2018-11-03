@@ -2,6 +2,8 @@
 2. Put your input file in hdfs
 2.1 File format is CSV like file without any string (encoded)
 3. to run program, run kmeans.sh
+4. Change the Kernel by changing py/kernel.py 
+(yes i know you need to change the code.. which is bad) 
 
 
 NOTE!!:
