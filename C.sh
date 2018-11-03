@@ -3,7 +3,6 @@
 IP1="data/input1"
 OP1="data/HALFCoutput"
 CACHEFILE="data/KCount/KCountC#KCount"
-HADOOP_JAR_PATH="/home/edho/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.8.1.jar"
 MAPPER1="py/HALFCMapper.py"
 REDUCER1="py/HALFCReducer.py"
 
@@ -19,7 +18,6 @@ hadoop jar $HADOOP_JAR_PATH \
 IP2="data/HALFCoutput"
 OP2="data/Coutput"
 CACHEFILE="data/KCount/KCountC#KCount"
-HADOOP_JAR_PATH="/home/edho/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.8.1.jar"
 MAPPER2="py/CMapper.py"
 REDUCER2="py/CReducer.py"
 
